@@ -10,3 +10,23 @@ Certifique-se de ter o Python instalado em sua máquina. Você pode instalar as 
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Inicialização
+Para iniciar a API, execute o seguinte comando:
+```bash
+python app.py
+```
+A API estará disponível em 'http://localhost:5000'.
+
+##Exemplo de Uso
+Envie uma solicitação POST para 'http://localhost:5000/predict' com o seguinte corpo:
+```json
+{
+  "text": "Eu estou muito feliz com os resultados do projeto!"
+}
+```
+
+
+
+
