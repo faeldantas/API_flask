@@ -19,7 +19,7 @@ python app.py
 ```
 A API estará disponível em 'http://localhost:5000'.
 
-##Exemplo de Uso
+## Exemplo de Uso
 Envie uma solicitação POST para 'http://localhost:5000/predict' com o seguinte corpo:
 ```json
 {
